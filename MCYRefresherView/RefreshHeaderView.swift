@@ -57,7 +57,7 @@ class RefreshHeaderView: UIView{
     //设置页面
     func initUI(){
         
-        self.frame = CGRect(x: 0, y: -RefreshHeaderHeight, width: scrollView.width, height: RefreshHeaderHeight)
+        self.frame = CGRect(x: 0, y: -RefreshHeaderHeight, width: scrollView.frame.width, height: RefreshHeaderHeight)
         self.backgroundColor = UIColor.clear
         scrollView.addSubview(self)
         
@@ -77,16 +77,16 @@ class RefreshHeaderView: UIView{
         
         titleLabel.frame.size.width = 100
         titleLabel.frame.size.height = 30
-        titleLabel.center = CGPoint(x: self.centerXX, y: RefreshHeaderHeight-30)
+        titleLabel.center = CGPoint(x: self.center.x, y: RefreshHeaderHeight-30)
         
         actView!.frame.size.width = 30
         actView!.frame.size.height = 30
-        actView!.frame.origin.x = titleLabel.x - 30
+        actView!.frame.origin.x = titleLabel.minX - 30
         actView!.frame.origin.y = RefreshHeaderHeight-45
         
         arrowImage!.frame.size.width = 30
         arrowImage!.frame.size.height = 30
-        arrowImage!.frame.origin.x = titleLabel.x - 30
+        arrowImage!.frame.origin.x = titleLabel.minX - 30
         arrowImage!.frame.origin.y = RefreshHeaderHeight-45
         
     }
