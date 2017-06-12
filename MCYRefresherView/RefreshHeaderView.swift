@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Cartography
 
 //下拉刷新的代理
 protocol isRefreshingDelegate{
@@ -26,7 +25,6 @@ class RefreshHeaderView: UIView{
     fileprivate var delegate: isRefreshingDelegate?
     fileprivate let RefreshHeaderHeight: CGFloat = 64 //高度
     
-    fileprivate var headerView: UIView! //顶部刷新view
     fileprivate var titleLabel: UILabel!
     fileprivate var scrollView: UIScrollView!
     fileprivate var actView: UIActivityIndicatorView?
@@ -39,7 +37,7 @@ class RefreshHeaderView: UIView{
         scrollView = subView
         self.delegate = target
         self.refreshState = RefreshState.refreshStateNormal
-       
+        
         //scrollView.delegate = self  //如果不是设置的观察者，会出现cell显示错误的问题
         initUI()
         designKFC()
@@ -59,9 +57,9 @@ class RefreshHeaderView: UIView{
     //设置页面
     func initUI(){
         
-        headerView = UIView(frame: CGRect(x: 0, y: -RefreshHeaderHeight, width: scrollView.width, height: RefreshHeaderHeight))
-        headerView.backgroundColor = UIColor.clear
-        scrollView.addSubview(headerView)
+        self.frame = CGRect(x: 0, y: -RefreshHeaderHeight, width: scrollView.width, height: RefreshHeaderHeight)
+        self.backgroundColor = UIColor.clear
+        scrollView.addSubview(self)
         
         titleLabel = UILabel()
         titleLabel?.font = UIFont.systemFont(ofSize: 12)
@@ -73,34 +71,23 @@ class RefreshHeaderView: UIView{
         
         arrowImage = UIImageView(image: UIImage(named: "tableview_pull_refresh"))
         
-        headerView.addSubview(titleLabel!)
-        headerView.addSubview(arrowImage!)
-        headerView.addSubview(actView!)
+        self.addSubview(titleLabel!)
+        self.addSubview(arrowImage!)
+        self.addSubview(actView!)
         
-        /**
-        *  约束
-        */
+        titleLabel.frame.size.width = 100
+        titleLabel.frame.size.height = 30
+        titleLabel.center = CGPoint(x: self.centerXX, y: RefreshHeaderHeight-30)
         
-        constrain(titleLabel, headerView) { (view, view1) in
-            view.bottom == view1.bottom - 15
-            view.centerX == view1.centerX
-            view.width == 100
-            view.height == 30
-        }
+        actView!.frame.size.width = 30
+        actView!.frame.size.height = 30
+        actView!.frame.origin.x = titleLabel.x - 30
+        actView!.frame.origin.y = RefreshHeaderHeight-45
         
-        constrain(actView!, titleLabel, headerView) { (view, view1, view2) in
-            view.right == view1.left + 10
-            view.bottom == view2.bottom - 15
-            view.width == 30
-            view.height == 30
-        }
-        
-        constrain(arrowImage!, titleLabel, headerView) { (view, view1, view2) in
-            view.right == view1.left + 10
-            view.bottom == view2.bottom - 15
-            view.width == 30
-            view.height == 30
-        }
+        arrowImage!.frame.size.width = 30
+        arrowImage!.frame.size.height = 30
+        arrowImage!.frame.origin.x = titleLabel.x - 30
+        arrowImage!.frame.origin.y = RefreshHeaderHeight-45
         
     }
     
@@ -160,8 +147,8 @@ class RefreshHeaderView: UIView{
             //固定顶部
             UIView.animate(withDuration: 0.2, delay: 0, options: .curveEaseInOut, animations: {
                 self.scrollView.contentInset.top = self.RefreshHeaderHeight + self.getInsetTop()
-                }, completion: { (done) in
-                    self.delegate?.reFreshing()
+            }, completion: { (done) in
+                self.delegate?.reFreshing()
             })
             
             break
@@ -196,8 +183,8 @@ class RefreshHeaderView: UIView{
             //动画返回
             UIView.animate(withDuration: 0.3, delay: 0.4, options: .curveEaseInOut, animations: {
                 self.scrollView.contentInset.top = -self.RefreshHeaderHeight + self.getInsetTop()
-                }, completion: { (done) in
-                    self.isRefreshing = false
+            }, completion: { (done) in
+                self.isRefreshing = false
             })
         }
     }

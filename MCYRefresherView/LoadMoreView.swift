@@ -6,9 +6,7 @@
 //  Copyright © 2016年 maocaiyuan. All rights reserved.
 //
 
-import Foundation
 import UIKit
-import Cartography
 
 //上啦加载更多
 protocol isLoadMoreDelegate {
@@ -78,31 +76,19 @@ class LoadMoreView: UIView, UIScrollViewDelegate{
         self.addSubview(arrowImage!)
         self.addSubview(actView!)
         
-        /**
-         *  约束
-         */
+        titleLabel.frame.size.width = 100
+        titleLabel.frame.size.height = 30
+        titleLabel.center = CGPoint(x: self.centerXX, y: LoadMoreHeaderHeight-30)
         
-        constrain(titleLabel, self) { (view, view1) in
-            view.bottom == view1.bottom - 15
-            view.centerX == view1.centerX
-            view.width == 100
-            view.height == 30
-        }
+        actView!.frame.size.width = 30
+        actView!.frame.size.height = 30
+        actView!.frame.origin.x = titleLabel.x - 30
+        actView!.frame.origin.y = LoadMoreHeaderHeight-45
         
-        constrain(actView!, titleLabel, self) { (view, view1, view2) in
-            view.right == view1.left + 10
-            view.bottom == view2.bottom - 15
-            view.width == 30
-            view.height == 30
-        }
-        
-        constrain(arrowImage!, titleLabel, self) { (view, view1, view2) in
-            view.right == view1.left + 10
-            view.bottom == view2.bottom - 15
-            view.width == 30
-            view.height == 30
-        }
-        
+        arrowImage!.frame.size.width = 30
+        arrowImage!.frame.size.height = 30
+        arrowImage!.frame.origin.x = titleLabel.x - 30
+        arrowImage!.frame.origin.y = LoadMoreHeaderHeight-45
     }
     
     func scrollViewContentOffsetDidChange(_ scrollView: UIScrollView) {
@@ -177,7 +163,7 @@ class LoadMoreView: UIView, UIScrollViewDelegate{
         self.setRrefreshState(RefreshState.refreshStateLoading)
     }
     
-    func endRefresh(){   
+    func endRefresh(){
         if refreshState == RefreshState.refreshStateLoading {
             setRrefreshState(.refreshStateNormal)
             self.scrollView.isScrollEnabled = true
