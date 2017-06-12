@@ -15,6 +15,9 @@ protocol isLoadMoreDelegate {
 
 class LoadMoreView: UIView, UIScrollViewDelegate{
     
+    let Width = UIScreen.main.bounds.width
+    let Height = UIScreen.main.bounds.height
+    
     let LoadMoreHeaderHeight: CGFloat = 50
     
     fileprivate var delegate: isLoadMoreDelegate?
@@ -82,12 +85,12 @@ class LoadMoreView: UIView, UIScrollViewDelegate{
         
         actView!.frame.size.width = 30
         actView!.frame.size.height = 30
-        actView!.frame.origin.x = titleLabel.minX - 30
+        actView!.frame.origin.x = titleLabel.frame.minX - 30
         actView!.frame.origin.y = LoadMoreHeaderHeight-45
         
         arrowImage!.frame.size.width = 30
         arrowImage!.frame.size.height = 30
-        arrowImage!.frame.origin.x = titleLabel.minX - 30
+        arrowImage!.frame.origin.x = titleLabel.frame.minX - 30
         arrowImage!.frame.origin.y = LoadMoreHeaderHeight-45
     }
     

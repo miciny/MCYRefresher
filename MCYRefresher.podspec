@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    v0.11, as you konw,
+                    0.11, as you konw,
                     MCYRefresher is a very simple refresher and loadMore view
                    DESC
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/miciny/MCYRefresher.git", :tag => "v0.11" }
+  s.source       = { :git => "https://github.com/miciny/MCYRefresher.git", :tag => "0.11" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

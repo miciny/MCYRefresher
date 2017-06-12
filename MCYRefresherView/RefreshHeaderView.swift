@@ -81,12 +81,12 @@ class RefreshHeaderView: UIView{
         
         actView!.frame.size.width = 30
         actView!.frame.size.height = 30
-        actView!.frame.origin.x = titleLabel.minX - 30
+        actView!.frame.origin.x = titleLabel.frame.minX - 30
         actView!.frame.origin.y = RefreshHeaderHeight-45
         
         arrowImage!.frame.size.width = 30
         arrowImage!.frame.size.height = 30
-        arrowImage!.frame.origin.x = titleLabel.minX - 30
+        arrowImage!.frame.origin.x = titleLabel.frame.minX - 30
         arrowImage!.frame.origin.y = RefreshHeaderHeight-45
         
     }
