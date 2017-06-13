@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MCYRefresher"
-  s.version      = "1.0" #不能有v
+  s.version      = "1.0.2" #不能有v
   s.summary      = "MCYRefresher is a very simple refresher and loadMore view"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MCYRefresherView/*.{swift}"
+  s.source_files  = "MCYRefresherView/*.{swift, xcassets}"
   # s.exclude_files = "MCYRefresher/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
