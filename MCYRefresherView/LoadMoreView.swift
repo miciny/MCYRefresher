@@ -72,7 +72,7 @@ class LoadMoreView: UIView, UIScrollViewDelegate{
         actView = UIActivityIndicatorView()
         actView?.color = UIColor.gray
         
-        arrowImage = UIImageView(image: UIImage(named: "tableview_pull_refresh"))
+        arrowImage = UIImageView(image: UIImage(named: "pull_refresh"))
         self.arrowImage?.transform  = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
         
         self.addSubview(titleLabel!)
@@ -151,7 +151,7 @@ class LoadMoreView: UIView, UIScrollViewDelegate{
             
             //固定底部
             UIView.animate(withDuration: 0.2, delay: 0.2, options: .curveEaseInOut, animations: {
-                
+                self.scrollView.contentInset.bottom = self.scrollView.contentInset.bottom
             }, completion: { (done) in
                 self.delegate?.loadingMore()
             })

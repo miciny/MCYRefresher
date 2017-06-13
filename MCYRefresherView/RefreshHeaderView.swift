@@ -69,7 +69,7 @@ class RefreshHeaderView: UIView{
         actView = UIActivityIndicatorView()
         actView?.color = UIColor.gray
         
-        arrowImage = UIImageView(image: UIImage(named: "tableview_pull_refresh"))
+        arrowImage = UIImageView(image: UIImage(named: "pull_refresh"))
         
         self.addSubview(titleLabel!)
         self.addSubview(arrowImage!)
