@@ -115,7 +115,7 @@ public class MCYRefreshView: UIView{
         
     }
     
-
+    
     fileprivate func scrollViewContentOffsetDidChange(_ scrollView: UIScrollView) {
         
         if(dragHeight() < 0 || refreshState == MCYRefreshState.refreshStateLoading ){

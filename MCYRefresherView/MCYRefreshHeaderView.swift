@@ -21,7 +21,7 @@ public enum MCYRefreshState{
 
 public class MCYRefreshView: UIView{
     
-    var refreshState: MCYRefreshState?
+    public var refreshState: MCYRefreshState?
     
     fileprivate var imageName: String!
     fileprivate var delegate: MCYRefreshViewDelegate?
@@ -60,6 +60,16 @@ public class MCYRefreshView: UIView{
                 self.isRefreshing = false
             })
         }
+    }
+    
+    //开始刷新 可以手动调用
+    public func startRefresh(){
+        guard self.isRefreshing == false else{
+            return
+        }
+        //此处不宜有动画
+        self.scrollView.contentOffset = CGPoint(x: 0, y: -(self.getInsetTop() + self.RefreshHeaderHeight))
+        self.setRrefreshState(MCYRefreshState.refreshStateLoading)
     }
     
     
@@ -175,15 +185,6 @@ public class MCYRefreshView: UIView{
         }
     }
     
-    //开始刷新
-    fileprivate func startRefresh(){
-        guard self.isRefreshing == false else{
-            return
-        }
-        //此处不宜有动画
-        self.scrollView.contentOffset = CGPoint(x: 0, y: -(self.getInsetTop() + self.RefreshHeaderHeight))
-        self.setRrefreshState(MCYRefreshState.refreshStateLoading)
-    }
     
     //计算拉的高度
     fileprivate func dragHeight()->CGFloat{

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F5B5C53D1C22F505A9782AF7D53D58D /* MCYRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */; };
-		81FF126BE0FDF6D4849776D5E67DB9A5 /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */; };
+		3D5F94F6B135D1FC5B44C94524F5B796 /* MCYRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FFD4370F1910CD08A3D7C5A2BF4FAE /* MCYRefreshHeaderView.swift */; };
+		41A27913CBB0524C7B020AB08BB50729 /* MCYLoadMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D5E67FD40948C1E96A5D3CA30C624 /* MCYLoadMoreView.swift */; };
 		946234D2CDB116358125D04FDA13D918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		AD4283624E2B0B567888D78F3FB6DE51 /* Pods-MCYRefresherDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5676641DB27F5DEB8A692694E95605 /* Pods-MCYRefresherDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B79F91A6E5E702DC6A33EA208354F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		CEECA54D655B35E58256A6BD98A3EB09 /* MCYRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDCC21D9C306123A5B848B60FFC57C85 /* MCYRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B17840E36AE4380DADAD53B1999ED6 /* MCYRefresher-dummy.m */; };
+		CEECA54D655B35E58256A6BD98A3EB09 /* MCYRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B023A22AF6C35BD0F41C3D035858491 /* MCYRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E680B8CD373378B34501CC098A34E833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		F907B9E8212F0088175A0789518964D0 /* Pods-MCYRefresherDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F654770CBF52D79D16C8411FB7CE1 /* Pods-MCYRefresherDemo-dummy.m */; };
-		FF2D2AD789E850D7F18420E17CD27675 /* LoadMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,28 +29,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017D0153A6B4719874731067B9839E06 /* MCYRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MCYRefresher.modulemap; sourceTree = "<group>"; };
-		167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCYRefresher-dummy.m"; sourceTree = "<group>"; };
 		1DD5B68783E14F02D22965866143B7F0 /* Pods-MCYRefresherDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCYRefresherDemo-frameworks.sh"; sourceTree = "<group>"; };
-		251EFDB2B45E9FC69049FBA01623F13B /* MCYRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-prefix.pch"; sourceTree = "<group>"; };
-		2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-umbrella.h"; sourceTree = "<group>"; };
 		282F654770CBF52D79D16C8411FB7CE1 /* Pods-MCYRefresherDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCYRefresherDemo-dummy.m"; sourceTree = "<group>"; };
+		29B17840E36AE4380DADAD53B1999ED6 /* MCYRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCYRefresher-dummy.m"; sourceTree = "<group>"; };
 		2B9B5D7324003AC235A5CF6CEA7904F6 /* Pods-MCYRefresherDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCYRefresherDemo-resources.sh"; sourceTree = "<group>"; };
 		47D1112553790522E66685D35A027D19 /* Pods-MCYRefresherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCYRefresherDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		489318C100D74D8BA16D71E1E3BCDAB9 /* Pods_MCYRefresherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCYRefresherDemo.framework; path = "Pods-MCYRefresherDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5047A8E154247F21023EE7DF26C3F125 /* Pods-MCYRefresherDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MCYRefresherDemo.modulemap"; sourceTree = "<group>"; };
+		59A2E95061A786E5683E97B99DB71872 /* MCYRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MCYRefresher.modulemap; sourceTree = "<group>"; };
 		60440643D1D9535FF4434F982CF14D8B /* Pods-MCYRefresherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCYRefresherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		61FFD4370F1910CD08A3D7C5A2BF4FAE /* MCYRefreshHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCYRefreshHeaderView.swift; path = MCYRefresherView/MCYRefreshHeaderView.swift; sourceTree = "<group>"; };
+		62299571C7D86C424C0A1F9C221200C3 /* MCYRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-prefix.pch"; sourceTree = "<group>"; };
 		6D382C92312873B1BBADBD2518A8986B /* Pods-MCYRefresherDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCYRefresherDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		6DB665BF43C798943C32C1814475B06B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E89657C2B6FA1FAA45332576D71036C /* MCYRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCYRefresher.xcconfig; sourceTree = "<group>"; };
 		7FD1C0FB679FC3ACC15D2C179411DD8F /* MCYRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCYRefresher.framework; path = MCYRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCYRefresher.xcconfig; sourceTree = "<group>"; };
+		8B023A22AF6C35BD0F41C3D035858491 /* MCYRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefreshHeaderView.swift; path = MCYRefresherView/RefreshHeaderView.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CA3D5E67FD40948C1E96A5D3CA30C624 /* MCYLoadMoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCYLoadMoreView.swift; path = MCYRefresherView/MCYLoadMoreView.swift; sourceTree = "<group>"; };
 		D290B0A2C9A97E74D915197D469A726D /* Pods-MCYRefresherDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCYRefresherDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadMoreView.swift; path = MCYRefresherView/LoadMoreView.swift; sourceTree = "<group>"; };
-		EE319BC5385A5388E6CCB2CB0EA3C285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8870F6A9DC4DB99DB2B08196371231 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5676641DB27F5DEB8A692694E95605 /* Pods-MCYRefresherDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCYRefresherDemo-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,31 +101,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4F292FE9EF2B0B8569F9A7FD06258845 /* MCYRefresher */ = {
-			isa = PBXGroup;
-			children = (
-				E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */,
-				94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */,
-				5117E720305B6DCA79013413E91F24FF /* Support Files */,
-			);
-			name = MCYRefresher;
-			path = MCYRefresher;
-			sourceTree = "<group>";
-		};
-		5117E720305B6DCA79013413E91F24FF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE319BC5385A5388E6CCB2CB0EA3C285 /* Info.plist */,
-				017D0153A6B4719874731067B9839E06 /* MCYRefresher.modulemap */,
-				818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */,
-				167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */,
-				251EFDB2B45E9FC69049FBA01623F13B /* MCYRefresher-prefix.pch */,
-				2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MCYRefresher";
-			sourceTree = "<group>";
-		};
 		674463D863E4E22ADC290C306E5F944D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,10 +138,35 @@
 			path = "Target Support Files/Pods-MCYRefresherDemo";
 			sourceTree = "<group>";
 		};
+		93BAF116481DD7D1DCD2E0B5E2D418BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE8870F6A9DC4DB99DB2B08196371231 /* Info.plist */,
+				59A2E95061A786E5683E97B99DB71872 /* MCYRefresher.modulemap */,
+				7E89657C2B6FA1FAA45332576D71036C /* MCYRefresher.xcconfig */,
+				29B17840E36AE4380DADAD53B1999ED6 /* MCYRefresher-dummy.m */,
+				62299571C7D86C424C0A1F9C221200C3 /* MCYRefresher-prefix.pch */,
+				8B023A22AF6C35BD0F41C3D035858491 /* MCYRefresher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCYRefresher";
+			sourceTree = "<group>";
+		};
+		B98E218CDBE153E094104241B515CABD /* MCYRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				CA3D5E67FD40948C1E96A5D3CA30C624 /* MCYLoadMoreView.swift */,
+				61FFD4370F1910CD08A3D7C5A2BF4FAE /* MCYRefreshHeaderView.swift */,
+				93BAF116481DD7D1DCD2E0B5E2D418BC /* Support Files */,
+			);
+			name = MCYRefresher;
+			path = MCYRefresher;
+			sourceTree = "<group>";
+		};
 		CF0330391D9A8D675323498830DD3A6A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F292FE9EF2B0B8569F9A7FD06258845 /* MCYRefresher */,
+				B98E218CDBE153E094104241B515CABD /* MCYRefresher */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -197,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C7C967C685C2819B8534588773BA6B3 /* Build configuration list for PBXNativeTarget "MCYRefresher" */;
 			buildPhases = (
-				C779C54CB2DEC874601E88D62F44426D /* Sources */,
+				B9D9DB4C2624054974FD439D6B7113DB /* Sources */,
 				4433C6683359E140C5153008BB6F7015 /* Frameworks */,
 				1B80959A689528BDA528C4FF05320633 /* Headers */,
 			);
@@ -264,13 +264,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C779C54CB2DEC874601E88D62F44426D /* Sources */ = {
+		B9D9DB4C2624054974FD439D6B7113DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2D2AD789E850D7F18420E17CD27675 /* LoadMoreView.swift in Sources */,
-				1F5B5C53D1C22F505A9782AF7D53D58D /* MCYRefresher-dummy.m in Sources */,
-				81FF126BE0FDF6D4849776D5E67DB9A5 /* RefreshHeaderView.swift in Sources */,
+				41A27913CBB0524C7B020AB08BB50729 /* MCYLoadMoreView.swift in Sources */,
+				BDCC21D9C306123A5B848B60FFC57C85 /* MCYRefresher-dummy.m in Sources */,
+				3D5F94F6B135D1FC5B44C94524F5B796 /* MCYRefreshHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +288,7 @@
 /* Begin XCBuildConfiguration section */
 		1A3EE23045A1BACD094445F1FCD79888 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */;
+			baseConfigurationReference = 7E89657C2B6FA1FAA45332576D71036C /* MCYRefresher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -323,7 +323,7 @@
 		};
 		65BE633F9F5619A0810378A9EB4DEDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */;
+			baseConfigurationReference = 7E89657C2B6FA1FAA45332576D71036C /* MCYRefresher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

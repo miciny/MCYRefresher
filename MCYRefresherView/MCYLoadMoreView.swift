@@ -28,7 +28,7 @@ public class MCYLoadMoreView: UIView, UIScrollViewDelegate{
     fileprivate var arrowImage: UIImageView?
     fileprivate var isRefreshing = false
     
-    var refreshState: MCYRefreshState?
+    public var refreshState: MCYRefreshState?
     
     public init(subView: UIScrollView, target: MCYLoadMoreViewDelegate, imageName: String) {
         
@@ -63,6 +63,14 @@ public class MCYLoadMoreView: UIView, UIScrollViewDelegate{
         self.removeFromSuperview()
     }
     
+    
+    //开始刷新
+    public func startRefresh(){
+        guard self.isRefreshing == false else{
+            return
+        }
+        self.setRrefreshState(MCYRefreshState.refreshStateLoading)
+    }
     
     //设置观察者
     fileprivate func designKFC(){
@@ -174,14 +182,6 @@ public class MCYLoadMoreView: UIView, UIScrollViewDelegate{
                 self.delegate?.loadingMore()
             })
         }
-    }
-    
-    //开始刷新
-    fileprivate func startRefresh(){
-        guard self.isRefreshing == false else{
-            return
-        }
-        self.setRrefreshState(MCYRefreshState.refreshStateLoading)
     }
 }
 
