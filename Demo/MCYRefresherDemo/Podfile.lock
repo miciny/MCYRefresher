@@ -1,12 +1,12 @@
 PODS:
-  - MCYRefresher (1.0.5)
+  - MCYRefresher (1.0.6)
 
 DEPENDENCIES:
-  - MCYRefresher (~> 1.0.5)
+  - MCYRefresher (~> 1.0.6)
 
 SPEC CHECKSUMS:
-  MCYRefresher: 88b7c828b307342260ff2097712f3afece82bdf9
+  MCYRefresher: 82c09885ba7a18bcfa1c3ce2f5aa4a7d3b12e5f2
 
-PODFILE CHECKSUM: 6580eaeea9b7b61c005114e0a3110e089e3e0814
+PODFILE CHECKSUM: 33f8efd24b9fae4e14ca6a84e981cb3dc0096016
 
 COCOAPODS: 1.3.0.beta.1
