@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MCYRefresher
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -17,8 +18,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var refreshTime = 0
     
-    var headerView: RefreshHeaderView?
-    var footerView: LoadMoreView?
+    var headerView: MCYRefreshView?
+    var footerView: MCYLoadMoreView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,8 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         mainTabelView.dataSource = self
         self.view.addSubview(mainTabelView)
         
-        headerView =  RefreshHeaderView(subView: mainTabelView, target: self)
-        footerView = LoadMoreView(subView: mainTabelView, target: self)
+        headerView = MCYRefreshView(subView: mainTabelView, target: self, imageName: "pull_refresh")
+        footerView = MCYLoadMoreView(subView: mainTabelView, target: self, imageName: "pull_refresh")
         mainTabelView.tableFooterView = footerView
     }
     
@@ -83,7 +84,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
 }
 
-extension ViewController: isRefreshingDelegate{
+extension ViewController: MCYRefreshViewDelegate{
     //isfreshing中的代理方法
     func reFreshing(){
         
@@ -93,7 +94,7 @@ extension ViewController: isRefreshingDelegate{
     }
 }
 
-extension ViewController: isLoadMoreDelegate{
+extension ViewController: MCYLoadMoreViewDelegate{
     //isLoadMore中的代理方法
     func loadingMore(){
         //这里做你想做的事

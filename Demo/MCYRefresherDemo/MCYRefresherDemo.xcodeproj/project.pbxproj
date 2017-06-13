@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C26CB0A1841DDCB3615A791 /* Pods_MCYRefresherDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8938798212A05C432A69FF1B /* Pods_MCYRefresherDemo.framework */; };
 		E14408051EEF92AB00C8E23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14408041EEF92AB00C8E23B /* AppDelegate.swift */; };
 		E14408071EEF92AB00C8E23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14408061EEF92AB00C8E23B /* ViewController.swift */; };
 		E144080A1EEF92AB00C8E23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14408081EEF92AB00C8E23B /* Main.storyboard */; };
 		E144080C1EEF92AB00C8E23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E144080B1EEF92AB00C8E23B /* Assets.xcassets */; };
 		E144080F1EEF92AB00C8E23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E144080D1EEF92AB00C8E23B /* LaunchScreen.storyboard */; };
-		E14408191EEF92FB00C8E23B /* LoadMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14408171EEF92FB00C8E23B /* LoadMoreView.swift */; };
-		E144081A1EEF92FB00C8E23B /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14408181EEF92FB00C8E23B /* RefreshHeaderView.swift */; };
-		E144081C1EEF930E00C8E23B /* RefresherImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E144081B1EEF930E00C8E23B /* RefresherImage.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77D43875E64E2AC43ACC22A0 /* Pods-MCYRefresherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCYRefresherDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8938798212A05C432A69FF1B /* Pods_MCYRefresherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCYRefresherDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2644331DFA383DDF8C88A80 /* Pods-MCYRefresherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MCYRefresherDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E14408011EEF92AB00C8E23B /* MCYRefresherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCYRefresherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14408041EEF92AB00C8E23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E14408061EEF92AB00C8E23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +26,6 @@
 		E144080B1EEF92AB00C8E23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E144080E1EEF92AB00C8E23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14408101EEF92AB00C8E23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E14408171EEF92FB00C8E23B /* LoadMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreView.swift; sourceTree = "<group>"; };
-		E14408181EEF92FB00C8E23B /* RefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshHeaderView.swift; sourceTree = "<group>"; };
-		E144081B1EEF930E00C8E23B /* RefresherImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = RefresherImage.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C26CB0A1841DDCB3615A791 /* Pods_MCYRefresherDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF3B14DA5DB62AC4BB8AF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8938798212A05C432A69FF1B /* Pods_MCYRefresherDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8805BE30CED703666FB00873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2644331DFA383DDF8C88A80 /* Pods-MCYRefresherDemo.debug.xcconfig */,
+				77D43875E64E2AC43ACC22A0 /* Pods-MCYRefresherDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E14407F81EEF92AB00C8E23B = {
 			isa = PBXGroup;
 			children = (
-				E14408161EEF92E100C8E23B /* MCYRefresherSDK */,
 				E14408031EEF92AB00C8E23B /* MCYRefresherDemo */,
 				E14408021EEF92AB00C8E23B /* Products */,
+				8805BE30CED703666FB00873 /* Pods */,
+				1AF3B14DA5DB62AC4BB8AF95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,16 +88,6 @@
 			path = MCYRefresherDemo;
 			sourceTree = "<group>";
 		};
-		E14408161EEF92E100C8E23B /* MCYRefresherSDK */ = {
-			isa = PBXGroup;
-			children = (
-				E14408171EEF92FB00C8E23B /* LoadMoreView.swift */,
-				E14408181EEF92FB00C8E23B /* RefreshHeaderView.swift */,
-				E144081B1EEF930E00C8E23B /* RefresherImage.xcassets */,
-			);
-			name = MCYRefresherSDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E14408131EEF92AB00C8E23B /* Build configuration list for PBXNativeTarget "MCYRefresherDemo" */;
 			buildPhases = (
+				9F7E324908BA41953B5247EB /* [CP] Check Pods Manifest.lock */,
 				E14407FD1EEF92AB00C8E23B /* Sources */,
 				E14407FE1EEF92AB00C8E23B /* Frameworks */,
 				E14407FF1EEF92AB00C8E23B /* Resources */,
+				0945151FFC91F483E72AC2AC /* [CP] Embed Pods Frameworks */,
+				B9BF39AAE8E9BD14DA78793A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E144081C1EEF930E00C8E23B /* RefresherImage.xcassets in Resources */,
 				E144080F1EEF92AB00C8E23B /* LaunchScreen.storyboard in Resources */,
 				E144080C1EEF92AB00C8E23B /* Assets.xcassets in Resources */,
 				E144080A1EEF92AB00C8E23B /* Main.storyboard in Resources */,
@@ -150,13 +159,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0945151FFC91F483E72AC2AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7E324908BA41953B5247EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BF39AAE8E9BD14DA78793A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E14407FD1EEF92AB00C8E23B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E14408191EEF92FB00C8E23B /* LoadMoreView.swift in Sources */,
-				E144081A1EEF92FB00C8E23B /* RefreshHeaderView.swift in Sources */,
 				E14408071EEF92AB00C8E23B /* ViewController.swift in Sources */,
 				E14408051EEF92AB00C8E23B /* AppDelegate.swift in Sources */,
 			);
@@ -279,6 +334,7 @@
 		};
 		E14408141EEF92AB00C8E23B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2644331DFA383DDF8C88A80 /* Pods-MCYRefresherDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4AB7FQ4W8L;
@@ -293,6 +349,7 @@
 		};
 		E14408151EEF92AB00C8E23B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D43875E64E2AC43ACC22A0 /* Pods-MCYRefresherDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4AB7FQ4W8L;
@@ -324,6 +381,7 @@
 				E14408151EEF92AB00C8E23B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

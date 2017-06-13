@@ -1,0 +1,6 @@
+framework module Pods_MCYRefresherDemo {
+  umbrella header "Pods-MCYRefresherDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

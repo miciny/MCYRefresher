@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5B5C53D1C22F505A9782AF7D53D58D /* MCYRefresher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */; };
+		81FF126BE0FDF6D4849776D5E67DB9A5 /* RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */; };
+		946234D2CDB116358125D04FDA13D918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		AD4283624E2B0B567888D78F3FB6DE51 /* Pods-MCYRefresherDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5676641DB27F5DEB8A692694E95605 /* Pods-MCYRefresherDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9B79F91A6E5E702DC6A33EA208354F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		CEECA54D655B35E58256A6BD98A3EB09 /* MCYRefresher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E680B8CD373378B34501CC098A34E833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		F907B9E8212F0088175A0789518964D0 /* Pods-MCYRefresherDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F654770CBF52D79D16C8411FB7CE1 /* Pods-MCYRefresherDemo-dummy.m */; };
+		FF2D2AD789E850D7F18420E17CD27675 /* LoadMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F47AA40FC3D7285E9B99C9347D73B46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555341823A8E3F71D9A63234D5FD7AB9;
+			remoteInfo = MCYRefresher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017D0153A6B4719874731067B9839E06 /* MCYRefresher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MCYRefresher.modulemap; sourceTree = "<group>"; };
+		167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCYRefresher-dummy.m"; sourceTree = "<group>"; };
+		1DD5B68783E14F02D22965866143B7F0 /* Pods-MCYRefresherDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCYRefresherDemo-frameworks.sh"; sourceTree = "<group>"; };
+		251EFDB2B45E9FC69049FBA01623F13B /* MCYRefresher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-prefix.pch"; sourceTree = "<group>"; };
+		2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCYRefresher-umbrella.h"; sourceTree = "<group>"; };
+		282F654770CBF52D79D16C8411FB7CE1 /* Pods-MCYRefresherDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCYRefresherDemo-dummy.m"; sourceTree = "<group>"; };
+		2B9B5D7324003AC235A5CF6CEA7904F6 /* Pods-MCYRefresherDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCYRefresherDemo-resources.sh"; sourceTree = "<group>"; };
+		47D1112553790522E66685D35A027D19 /* Pods-MCYRefresherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCYRefresherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		489318C100D74D8BA16D71E1E3BCDAB9 /* Pods_MCYRefresherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MCYRefresherDemo.framework; path = "Pods-MCYRefresherDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047A8E154247F21023EE7DF26C3F125 /* Pods-MCYRefresherDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MCYRefresherDemo.modulemap"; sourceTree = "<group>"; };
+		60440643D1D9535FF4434F982CF14D8B /* Pods-MCYRefresherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCYRefresherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6D382C92312873B1BBADBD2518A8986B /* Pods-MCYRefresherDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCYRefresherDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DB665BF43C798943C32C1814475B06B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD1C0FB679FC3ACC15D2C179411DD8F /* MCYRefresher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCYRefresher.framework; path = MCYRefresher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCYRefresher.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RefreshHeaderView.swift; path = MCYRefresherView/RefreshHeaderView.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D290B0A2C9A97E74D915197D469A726D /* Pods-MCYRefresherDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCYRefresherDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadMoreView.swift; path = MCYRefresherView/LoadMoreView.swift; sourceTree = "<group>"; };
+		EE319BC5385A5388E6CCB2CB0EA3C285 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5676641DB27F5DEB8A692694E95605 /* Pods-MCYRefresherDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCYRefresherDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4433C6683359E140C5153008BB6F7015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946234D2CDB116358125D04FDA13D918 /* Foundation.framework in Frameworks */,
+				E680B8CD373378B34501CC098A34E833 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520750AE00C80885442AFA825DF801F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B79F91A6E5E702DC6A33EA208354F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381FE5733A9F92AC61F7F22A12ED8E8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD1C0FB679FC3ACC15D2C179411DD8F /* MCYRefresher.framework */,
+				489318C100D74D8BA16D71E1E3BCDAB9 /* Pods_MCYRefresherDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F292FE9EF2B0B8569F9A7FD06258845 /* MCYRefresher */ = {
+			isa = PBXGroup;
+			children = (
+				E9E75E6FEA8155D483AB6A66DA65C96C /* LoadMoreView.swift */,
+				94E93A4BCE111BEBEA5D061A8DC08FE5 /* RefreshHeaderView.swift */,
+				5117E720305B6DCA79013413E91F24FF /* Support Files */,
+			);
+			name = MCYRefresher;
+			path = MCYRefresher;
+			sourceTree = "<group>";
+		};
+		5117E720305B6DCA79013413E91F24FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE319BC5385A5388E6CCB2CB0EA3C285 /* Info.plist */,
+				017D0153A6B4719874731067B9839E06 /* MCYRefresher.modulemap */,
+				818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */,
+				167A7D08FF3FD7F5ADD50F4342BA0F34 /* MCYRefresher-dummy.m */,
+				251EFDB2B45E9FC69049FBA01623F13B /* MCYRefresher-prefix.pch */,
+				2753F31F179595172D6176369C43B613 /* MCYRefresher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MCYRefresher";
+			sourceTree = "<group>";
+		};
+		674463D863E4E22ADC290C306E5F944D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				826BBA4C6714945D28305E96FDC82012 /* Pods-MCYRefresherDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CF0330391D9A8D675323498830DD3A6A /* Pods */,
+				381FE5733A9F92AC61F7F22A12ED8E8F /* Products */,
+				674463D863E4E22ADC290C306E5F944D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		826BBA4C6714945D28305E96FDC82012 /* Pods-MCYRefresherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DB665BF43C798943C32C1814475B06B /* Info.plist */,
+				5047A8E154247F21023EE7DF26C3F125 /* Pods-MCYRefresherDemo.modulemap */,
+				D290B0A2C9A97E74D915197D469A726D /* Pods-MCYRefresherDemo-acknowledgements.markdown */,
+				6D382C92312873B1BBADBD2518A8986B /* Pods-MCYRefresherDemo-acknowledgements.plist */,
+				282F654770CBF52D79D16C8411FB7CE1 /* Pods-MCYRefresherDemo-dummy.m */,
+				1DD5B68783E14F02D22965866143B7F0 /* Pods-MCYRefresherDemo-frameworks.sh */,
+				2B9B5D7324003AC235A5CF6CEA7904F6 /* Pods-MCYRefresherDemo-resources.sh */,
+				EF5676641DB27F5DEB8A692694E95605 /* Pods-MCYRefresherDemo-umbrella.h */,
+				47D1112553790522E66685D35A027D19 /* Pods-MCYRefresherDemo.debug.xcconfig */,
+				60440643D1D9535FF4434F982CF14D8B /* Pods-MCYRefresherDemo.release.xcconfig */,
+			);
+			name = "Pods-MCYRefresherDemo";
+			path = "Target Support Files/Pods-MCYRefresherDemo";
+			sourceTree = "<group>";
+		};
+		CF0330391D9A8D675323498830DD3A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F292FE9EF2B0B8569F9A7FD06258845 /* MCYRefresher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B80959A689528BDA528C4FF05320633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEECA54D655B35E58256A6BD98A3EB09 /* MCYRefresher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE064A685A511355AE0A9056E5B173E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4283624E2B0B567888D78F3FB6DE51 /* Pods-MCYRefresherDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		555341823A8E3F71D9A63234D5FD7AB9 /* MCYRefresher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C7C967C685C2819B8534588773BA6B3 /* Build configuration list for PBXNativeTarget "MCYRefresher" */;
+			buildPhases = (
+				C779C54CB2DEC874601E88D62F44426D /* Sources */,
+				4433C6683359E140C5153008BB6F7015 /* Frameworks */,
+				1B80959A689528BDA528C4FF05320633 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCYRefresher;
+			productName = MCYRefresher;
+			productReference = 7FD1C0FB679FC3ACC15D2C179411DD8F /* MCYRefresher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78DFAA6EC4B61499B212B3AB0E1EBE28 /* Pods-MCYRefresherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C79F95EF80ACCE2B2A1F1F01AB19D68 /* Build configuration list for PBXNativeTarget "Pods-MCYRefresherDemo" */;
+			buildPhases = (
+				78B7296F604A47180EA3DFF38F726603 /* Sources */,
+				520750AE00C80885442AFA825DF801F6 /* Frameworks */,
+				FEE064A685A511355AE0A9056E5B173E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E48FF322E251C0E624501F8C9CA8FC /* PBXTargetDependency */,
+			);
+			name = "Pods-MCYRefresherDemo";
+			productName = "Pods-MCYRefresherDemo";
+			productReference = 489318C100D74D8BA16D71E1E3BCDAB9 /* Pods_MCYRefresherDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 381FE5733A9F92AC61F7F22A12ED8E8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555341823A8E3F71D9A63234D5FD7AB9 /* MCYRefresher */,
+				78DFAA6EC4B61499B212B3AB0E1EBE28 /* Pods-MCYRefresherDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78B7296F604A47180EA3DFF38F726603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907B9E8212F0088175A0789518964D0 /* Pods-MCYRefresherDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C779C54CB2DEC874601E88D62F44426D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D2AD789E850D7F18420E17CD27675 /* LoadMoreView.swift in Sources */,
+				1F5B5C53D1C22F505A9782AF7D53D58D /* MCYRefresher-dummy.m in Sources */,
+				81FF126BE0FDF6D4849776D5E67DB9A5 /* RefreshHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E48FF322E251C0E624501F8C9CA8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCYRefresher;
+			target = 555341823A8E3F71D9A63234D5FD7AB9 /* MCYRefresher */;
+			targetProxy = 3F47AA40FC3D7285E9B99C9347D73B46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A3EE23045A1BACD094445F1FCD79888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCYRefresher/MCYRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCYRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCYRefresher/MCYRefresher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MCYRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65BE633F9F5619A0810378A9EB4DEDA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818BEC35B352094B08DBED3D3924280F /* MCYRefresher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MCYRefresher/MCYRefresher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCYRefresher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MCYRefresher/MCYRefresher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MCYRefresher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91D2B01FD0C90AD3365485E230A4F18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60440643D1D9535FF4434F982CF14D8B /* Pods-MCYRefresherDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCYRefresherDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCYRefresherDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C3D0BAADA4E98BDAF590887079EA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D1112553790522E66685D35A027D19 /* Pods-MCYRefresherDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCYRefresherDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCYRefresherDemo/Pods-MCYRefresherDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCYRefresherDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C79F95EF80ACCE2B2A1F1F01AB19D68 /* Build configuration list for PBXNativeTarget "Pods-MCYRefresherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C3D0BAADA4E98BDAF590887079EA13 /* Debug */,
+				91D2B01FD0C90AD3365485E230A4F18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C7C967C685C2819B8534588773BA6B3 /* Build configuration list for PBXNativeTarget "MCYRefresher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3EE23045A1BACD094445F1FCD79888 /* Debug */,
+				65BE633F9F5619A0810378A9EB4DEDA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
